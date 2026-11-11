@@ -20,7 +20,7 @@ jobs:
 
       - run: pip install requests
 
-      - run: python airy.py
+      - run: python airy_gen.py
 
       - name: Commit changes
         run: |
