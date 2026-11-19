@@ -2,7 +2,7 @@ name: Update Airy Playlist
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '7 * * * *'   # hourly; Airy's guide only covers ~8h
   workflow_dispatch:
 
 permissions:
